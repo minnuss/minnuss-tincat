@@ -1,0 +1,727 @@
+html {
+    font: antialiased;
+    scroll-behavior: smooth;
+}
+
+body,
+section {
+    width: 100%;
+    background-color: #f0e3ff;
+    font-family: 'Orienta';
+    /*
+    background-image: url(img/first.jpg);
+    background-repeat: no-repeat;
+*/
+
+}
+
+.navbar-expand-lg {
+    background-color: #916dd5;
+}
+
+
+
+/******************* TOP Contatiner ******************/
+
+.container-fluid {
+    width: 75%;
+    padding-bottom: 7%;
+}
+
+.navbar-brand {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2em;
+    line-height: 1;
+    margin: 0;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    color: white;
+}
+
+.naslovrow {
+    margin: 2% 0 2%;
+    padding-top: 3%;
+    padding-bottom: 13%;
+}
+
+h1 {
+    font-size: 5em;
+    line-height: 1.5;
+}
+
+.btn {
+    margin: 3% 2%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Orienta', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h1naslov {
+    width: auto;
+    font-family: 'Orienta', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 3px #d89cf6;
+    padding: 10% 0 3%;
+    text-align: center;
+}
+
+.mobilni {
+    transform: rotate(30deg);
+    width: 70%;
+    top: 5%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 15px 0;
+    filter: drop-shadow(3px 3px 3px #d89cf6);
+    position: absolute;
+    right: 20%;
+
+}
+
+/******************* F E A T U R E S ******************/
+
+#features {
+    width: 100%;
+    display: inline-flex;
+    background-color: white;
+    position: relative;
+}
+
+.rowfeatures {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto 10%;
+}
+
+.col-lg-4 {
+    margin: 0 3%;
+}
+
+.col-lg-4 i {
+    font-size: 5rem;
+    color: #916dd5;
+}
+
+.col-lg-4 i:hover {
+    color: #3e206d;
+}
+
+
+.h3features {
+    color: #3e206d;
+    font-weight: 500;
+    font-size: 1.8rem;
+    font-family: 'Russo One', sans-serif;
+}
+
+.pfeatures {
+    color: #916dd5;
+    font-size: 1.25rem
+}
+
+
+/******************* T E S T I M O N I A L S ******************/
+
+
+#testimonials {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#carouseltestimonials {
+    padding-bottom: 7%;
+}
+
+#testimonials h2 {
+    line-height: 1.5;
+    padding: 10% 0 5%;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 3rem;
+    color: #916dd5;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 4px 4px #d89cf6;
+}
+
+#testimonials em {
+    display: inline;
+    font-size: 1.5rem;
+    color: #916dd5;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.sr-only {
+    color: #916dd5;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+    font-size: 40px;
+}
+
+.carousel-item img {
+    border-radius: 15%;
+}
+
+
+/******************* P R E S S ******************/
+
+#press {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+.presslogo {
+
+    margin: 0 5% 3%;
+    width: 12%;
+
+}
+
+/******************* P R I C I N G ******************/
+
+#pricing {
+    width: 100%;
+    background-color: white;
+    padding: 3% 0 8%;
+}
+
+#pricing h2 {
+    font-size: 5em;
+    width: auto;
+    font-family: 'Orienta', sans-serif;
+    font-weight: 700;
+    color: #f0e3ff;
+    text-shadow: 3px 3px 3px #916dd5;
+    padding: 3% 0;
+    text-align: center;
+}
+
+#pricing p {
+    line-height: 1.5;
+    padding: 0% 0 5%;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 3rem;
+    color: #916dd5;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px #d89cf6;
+    text-align: center;
+}
+
+.row-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.price-table {
+    width: 350px;
+    min-height: 320px;
+    background-color: #fff;
+    border-radius: 0 0 0 25px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 8px #ccc;
+    display: block;
+    margin: 10px;
+    padding: 0 0px 8px 0;
+    text-align: center;
+}
+
+.price-table span {
+    display: block;
+}
+
+.price-table span:first-child {
+    padding: 16px 0 0 0;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.price-table span:nth-child(2) {
+    padding: 0 0 16px 0;
+    font-size: 1.3em;
+}
+
+.price-table span:nth-child(3) {
+    padding: 8px 0;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.price-table > ul {
+    font-size: 1.1em;
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.price-table > ul > li {
+    display: block;
+    padding: 8px 0;
+}
+
+.price-table > ul > li:first-child {
+    border-top: 1px solid #ccc;
+}
+
+.price-table > ul > li {
+    border-bottom: 1px solid #ccc;
+}
+
+.price-table a,
+.price-table a:active,
+.price-table a:focus,
+.price-table a:hover,
+.price-table a:visited {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .2s;
+}
+
+/* Colors */
+
+.pt-bg-pink span:first-child {
+    background-color: #f0e3ff;
+    color: #3e206d;
+}
+
+.pt-bg-pink span:nth-child(2) {
+    background-color: #f0e3ff;
+    color: #3e206d;
+    font-weight: 500;
+}
+
+.pt-bg-pink a {
+    border: 3px solid #916dd5;
+    color: #916dd5;
+    margin-top: 8px;
+}
+
+.pt-bg-pink a:hover {
+    background-color: #f0e3ff;
+    color: #916dd5;
+}
+
+/* End Color Pink */
+
+.pt-bg-purple span:first-child {
+    background-color: #916dd5;
+    color: #fcfcfc;
+}
+
+.pt-bg-purple span:nth-child(2) {
+    background-color: #916dd5;
+    color: #f0e3ff;
+    font-weight: 600;
+}
+
+.pt-bg-purple a {
+    border: 3px solid #916dd5;
+    color: #916dd5;
+    margin-top: 8px;
+}
+
+.pt-bg-purple a:hover {
+    background-color: #916dd5;
+    color: #fff;
+}
+
+/* End Color Purple */
+
+.pt-bg-blue span:first-child {
+    background-color: #007BFF;
+    color: #fcfcfc;
+}
+
+.pt-bg-blue span:nth-child(2) {
+    background-color: #007BFF;
+    color: #D5D8DC;
+    font-weight: 600;
+}
+
+.pt-bg-blue a {
+    border: 3px solid #007BFF;
+    color: #007BFF;
+    margin-top: 8px;
+}
+
+.pt-bg-blue a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* End Color Blue */
+
+/******************* C T A ******************/
+
+#cta {
+    padding: 5% 0;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cta h3 {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 4em;
+    font-family: 'Orienta', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 3px #d89cf6;
+    padding: 3% 0;
+    text-align: center;
+}
+
+/******************* F O O T E R ******************/
+
+#footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.dmreze {
+    width: 75%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    margin: 1% 0;
+    padding: 5% 0;
+}
+
+.dmreze a {
+    margin: 0% 3%;
+}
+
+.dmreze i {
+    font-size: 2em;
+}
+
+#footer p {
+    margin: 14% 5% 1%;
+    font-size: 0.8rem;
+}
+
+/******************* H O M E   I C O N ******************/
+
+.homeicon {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #916dd5;
+    bottom: 40px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    font-size: 22px;
+    z-index: 999;
+}
+
+.homeicon:hover {
+    color: #d89cf6;
+}
+
+
+/******************* M O B I L E ******************/
+
+@media all and (max-width: 990px) {
+
+    .container-fluid {
+        width: 100%;
+        padding: 0 0 125% !important;
+        margin: 0 auto;
+
+    }
+
+    .navbar {
+        padding: 3% 0;
+
+    }
+
+    .navbar-brand {
+        margin: 0 2%;
+        font-size: 3rem;
+    }
+
+    .navbar-toggler {
+        font-size: 2.5rem;
+    }
+
+    .nav-item {
+        padding: 20px 20px;
+    }
+
+    .nav-link {
+        font-size: 2.5rem;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col-lg {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .h1naslov {
+        margin: 0;
+        padding: 2% 0 5%;
+    }
+
+    .btn-lg {
+        font-size: 2rem;
+    }
+
+
+    .fab {
+        font-size: 2rem;
+    }
+
+    .mobilni {
+        display: block;
+        margin: 5% auto;
+        width: 60%;
+        transform: rotate(20deg);
+    }
+
+    #features {
+        flex-basis: 1;
+    }
+
+    .rowfeatures {
+        flex-wrap: wrap;
+        margin: 15% 0 15%;
+    }
+
+    .col-lg-4 {
+        margin: 8%;
+        width: 100%
+    }
+
+    .col-lg-4 i {
+        font-size: 10rem;
+    }
+
+    .h3features {
+        color: #3e206d;
+        font-weight: 500;
+        font-size: 3rem;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    .pfeatures {
+        color: #916dd5;
+        font-size: 2.5rem
+    }
+
+    #testimonials {
+        width: 100%;
+    }
+
+    #testimonials h2 {
+        line-height: 2;
+        width: 90%;
+    }
+
+    #testimonials em {
+        font-size: 2.5rem;
+    }
+
+    #press {
+        width: 100%;
+    }
+
+    .presslogo {
+        margin: 5% 3% 5%;
+        width: 18%;
+    }
+
+    #pricing h2 {
+        font-size: 5.5em;
+        padding: 5% 0;
+    }
+
+    #pricing p {
+        width: 90%;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+
+    .pricing {
+        width: 100%;
+        flex-basis: 1;
+    }
+
+    .price-table {
+        width: 600px;
+        min-height: 520px;
+        background-color: #fff;
+        border-radius: 0 0 0 25px;
+        border: 1px solid #ccc;
+        box-shadow: 5px 5px 8px #ccc;
+        display: block;
+        margin: 10% 2%;
+        padding: 0 0px 8px 0;
+        text-align: center;
+    }
+
+    .price-table span:first-child {
+        padding: 0 0 0 0;
+        font-size: 3.5em;
+        line-height: 2;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .price-table span:second-child {
+        font-size: 1em;
+    }
+
+    .price-table span:nth-child(2) {
+        padding: 0 0 0 0;
+        line-height: 1.7;
+        font-size: 2.5em;
+    }
+
+    .price-table span:nth-child(3) {
+        padding: 8px 0;
+        font-weight: bold;
+        font-size: 2.3em;
+    }
+
+    .price-table > ul {
+        font-size: 2.1em;
+        list-style: none;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .price-table > ul > li {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .price-table > ul > li:first-child {
+        border-top: 1px solid #ccc;
+    }
+
+    .price-table > ul > li {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .price-table a,
+    .price-table a:active,
+    .price-table a:focus,
+    .price-table a:hover,
+    .price-table a:visited {
+        font-size: 2em;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 10px 26px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: .2s;
+    }
+
+    #cta {
+        width: 95%;
+    }
+
+    #cta h3 {
+        color: #d89cf6;
+        line-height: 1.5;
+        width: 90%;
+        font-size: 4em;
+        text-shadow: 1px 1px 1px #916dd5;
+    }
+
+    #footer p {
+        padding: 1%;
+        margin: 0 5%;
+        font-size: 1rem;
+    }
+
+    .dmreze {
+        width: 75%;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .dmreze a {
+        margin: 0% 5%;
+        padding: 7% 0;
+    }
+
+    .dmreze i {
+        font-size: 3em;
+    }
+
+    #footer p {
+        padding: 6% 0 2%;
+        margin: 20% 5% 0;
+        font-size: 0.8rem;
+    }
+
+    .homeicon {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 50px;
+    }
